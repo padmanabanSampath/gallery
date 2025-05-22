@@ -1,0 +1,16 @@
+{
+  "models": [
+    {
+      "name": "Gemini Pro (from asset)",
+      "info": "A powerful model for general tasks, loaded from app assets.",
+      "llmSupportImage": false,
+      "llmSupportText": true
+    },
+    {
+      "name": "PaliGemma Vision (from asset)",
+      "info": "Vision-language model for image Q&A, loaded from app assets.",
+      "llmSupportImage": true,
+      "llmSupportText": true
+    }
+  ]
+}

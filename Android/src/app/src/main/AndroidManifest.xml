@@ -34,7 +34,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="Edge Gallery"
+        android:label="Flutter GenAI Gallery"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.Gallery"
@@ -53,14 +53,8 @@
             </intent-filter>
 
             <!-- This is for deep linking -->
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-
-                <data android:scheme="com.google.ai.edge.gallery" />
             </intent-filter>
+            <!-- Deep link intent filter removed as it was for the old native UI -->
         </activity>
 
         <uses-native-library
